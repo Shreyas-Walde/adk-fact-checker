@@ -12,7 +12,7 @@ fact_checker = SequentialAgent(
     description=(
         'Evaluates LLM-generated answers, verifies actual accuracy using the'
         ' web, and refines the response to ensure alignment with real-world'
-        ' knowledge. '
+        ' knowledge.'
     ),
     sub_agents=[critic_agent, reviser_agent],
 )
